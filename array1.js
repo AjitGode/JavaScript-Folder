@@ -35,5 +35,5 @@ let sum =0;
 
  let cities = ["pune","mumbai","karnataka","chennai"]
  for(i=0;i<cities.length;i++){
-    console.log("welcome" +" " +cities[i])
+    console.log("welcome" +" " +cities[i]);
  }
