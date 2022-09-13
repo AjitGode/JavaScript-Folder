@@ -22,7 +22,7 @@ for(i=0;i<marks.length;i++){
 }
 console.log(above)
 
-//program 3
+//program 3 
 
 let total = [11,22,33]
 let sum =0;
