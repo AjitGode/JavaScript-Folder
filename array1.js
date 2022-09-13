@@ -33,7 +33,7 @@ let sum =0;
 
  //program 4
 
- let cities = ["pune","mumbai","karnataka","chennai"]
+ let cities = ["pune","mumbai","karnataka","chennai","Nashik"]
  for(i=0;i<cities.length;i++){
     console.log("welcome" +" " +cities[i]);
  }
