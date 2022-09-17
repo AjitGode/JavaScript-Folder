@@ -49,6 +49,14 @@ console.log(ln)
 console.log(ag)
 console.log(rn)
 
+let vehicle ={
+    color:"red",
+    model:"sedane"
+}
+
+let {color:cl,model:ml}=vehicle
+console.log(cl,ml)
+
 // program 5 
 
 let family ={
