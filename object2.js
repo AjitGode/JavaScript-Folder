@@ -80,3 +80,37 @@ console.log(father)
 console.log(mother)
 console.log(brother)
 console.log(sister)
+
+//program 4
+
+let student = [
+    {
+        firstName :"Ajit",
+        lastName:"Gode"
+
+},
+{
+    firstName:"Vaibhav",
+    lastName:"Gode"
+}
+]
+
+let [{firstName:f11,lastName:l11},{firstName:f12,lastName:l12}]=student
+
+console.log(f11)
+console.log(l11)
+console.log(f12)
+console.log(l12)
+
+//program 5
+
+let students = {
+    firstName:"Ajit",
+    lastName:"Gode",
+    age :23,
+    rollNo:56,
+    skill:["Angular","java","javascript","typescript","Html","Css"]
+}
+let {firstName,lastName,age,rollNo,skill}=students
+
+console.log(skill)

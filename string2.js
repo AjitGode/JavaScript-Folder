@@ -33,7 +33,7 @@ console.log(typeof a5) // boolean
 
 
 let vegetable = "brinjal"
-let a6 = vegetable.startsWith('B')
+let a6 = vegetable.startsWith('b')
 console.log(a6) // false
 console.log(typeof a6) //boolean
 

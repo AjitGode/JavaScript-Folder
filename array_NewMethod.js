@@ -70,14 +70,14 @@ console.log(a7)
 let n = [11,21,31,41,51,61,71,81]
 
 let a8 = n.some(function(el,index,arr){
-    return el >90
+    return el >10
 })
 console.log(a8)
 
 // 8.every  //it return boolean value
 
 let a9 = n.every(function(el,index,arr){
-    return el >10
+    return el >100
 })
 console.log(a9)
 

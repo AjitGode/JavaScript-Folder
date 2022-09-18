@@ -1,29 +1,29 @@
- let names = ["Ajit","Sanket","sumedh","Pradip"]
+//  let names = ["Ajit","Sanket","sumedh","Pradip"]
 
- //retrive
- console.log(names[0])
+//  //retrive
+//  console.log(names[0])
 
-//update 
+// //update 
 
-names[1]="suyog"
-console.log(names)
+// names[1]="suyog"
+// console.log(names)
 
-//add 
-names.unshift("Akash")
-names.push("jahid")
-console.log(names)
+// //add 
+// names.unshift("Akash")
+// names.push("jahid")
+// console.log(names)
 
-//delete
+// //delete
 
-names.pop()
-names.shift()
-console.log(names)
+// names.pop()
+// names.shift()
+// console.log(names)
 
-//loop
+// //loop
 
-for(let i=0;i<names.length;i++){
-    console.log(names[i])
-}
+// for(let i=0;i<names.length;i++){
+//     console.log(names[i])
+// }
 
 //------------------------------------------------
 
