@@ -65,5 +65,5 @@ let add = function(x,y){
     return x+y
 }
 console.log(add)
-let q8 =add(12,5)//caling function
+let q8 =add(12,5)//caling the function
 console.log(q8)
