@@ -67,3 +67,34 @@ let add = function(x,y){
 console.log(add)
 let q8 =add(12,5)//caling the function
 console.log(q8)
+
+
+let addition = function(x,y){
+    return x+y
+}
+
+function add1(x,y,fn){
+    let z= fn(x,y)
+    return z
+
+}
+let s1 =add1(12,3,addition)
+console.log(s1)
+
+//Difference between printing definition and calling function
+//console.log(addition) ---->printing function
+//let x1 = addition(12,3) ---> calling function
+
+
+//Function as a return type from another function
+
+function multiplication(x,y){
+    console.log(x*y)
+    return function(){
+        console.log('return')
+    } 
+
+}
+let s2= multiplication(12,5)
+console.log(s2)
+s2();
