@@ -2,9 +2,12 @@ body{
     margin: 0;
     justify-content: center;
     background-color:#fcde67;
-    display: flex;
+    
 }
 h1{
+    /* border: 1px solid red; */
+    /* width: 400px; */
+    /* margin-top: 25%; */
     display: flex;
     margin-top: 25%;
     color: #de5499 ;
