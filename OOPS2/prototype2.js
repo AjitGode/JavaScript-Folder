@@ -92,4 +92,4 @@ console.log(Akash)
 Akash.init("Akash","Gunjal")
 console.log(Akash)
 
-console.log(Akash.__proto__ === Person3.prototype)
+// console.log(Akash.__proto__ === Person3.prototype)
