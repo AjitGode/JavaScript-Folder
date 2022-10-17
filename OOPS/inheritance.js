@@ -133,3 +133,5 @@ Ajit.displayFname()
 let srutika = new DaughterA("Daulat","Gode","Shrutika")
 
 srutika.displayDname()
+console.log(srutika.sName)
+console.log(srutika.firstName)
