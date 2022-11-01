@@ -120,3 +120,4 @@ pro2.then(function(a){
     console.log(a[0])
 
 })
+
