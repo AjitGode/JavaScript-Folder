@@ -86,3 +86,48 @@ Pro.then(function(str){
 },function(str){
     console.log(str)
 })
+
+
+let Pro2 = new Promise(function(resolve,reject){
+    let x = 100
+    let y = 100
+
+    if(x==y){
+        resolve("Hello")
+    }
+    else{
+        reject("Bye")
+    }
+})
+
+Pro2.then(function(str){
+    console.log(str)
+},function(str){
+    console.log(str)
+})
+
+let pro3 = new Promise(function(resolev,reject){
+    // let A = 10
+    // let B = 20
+
+    // if(A==B){
+    //     setTimeout(function(){
+    //         resolev("AG")
+    //     },2000)
+    // }else{
+    //     setTimeout(function(){
+    //         reject("AS")
+    //     },5000)
+    // }
+
+    console.log("Ag")
+    resolev()
+    reject()
+})
+
+
+pro3.then(function(str){
+    console.log(str)
+},function(str){
+    console.log(str)
+})
