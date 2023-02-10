@@ -58,3 +58,30 @@ for(i=1; i<=5;i++){
     }
     console.log(i);
 }
+
+
+// reverse 10 to 2 
+
+for(let i=10;i>=2;i--){
+    console.log(i)
+}
+
+// Create array = [50, 48, 46, 44, 42]
+
+let arr = []
+
+for(let i=50;i>=42;i=i-2){
+    arr.push(i)
+
+}
+console.log(arr)
+
+// Find the sum of squares of first 20 odd numbers which divisible by 3.
+
+let sum = 0; 
+let count = 0;
+for (let i = 3; count < 20; i =i+ 6) { 
+    sum = sum + i * i;
+    count++;
+}
+console.log(sum);
