@@ -78,10 +78,10 @@ console.log(arr)
 
 // Find the sum of squares of first 20 odd numbers which divisible by 3.
 
-let sum = 0; 
-let count = 0;
-for (let i = 3; count < 20; i =i+ 6) { 
-    sum = sum + i * i;
-    count++;
-}
-console.log(sum);
+// let sum = 0; 
+// let count = 0;
+// for (let i = 3; count < 20; i =i+ 6) { 
+//     sum = sum + i * i;
+//     count++;
+// }
+// console.log(sum);
